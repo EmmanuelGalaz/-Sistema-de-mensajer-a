@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    background-color: rgb(240, 239, 239);
+    display: flex;
+    align-items: center;
+}
+
+
+#profile {
+    width: 48px;
+    border-radius: 50%;
+}
+
+.menu {
+    min-height: 100vh;
+    width: 18em;
+    background-color: white;
+}
+
+.head {
+    display: flex;
+    border: 0.6px silver solid;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.texto {
+    font-weight: 100;
+    color: rgba(84, 81, 81, 0.746);
+}
+
+.options {
+    display: flex;
+    width: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.options a {
+    font-size: 1.2em;
+    color: rgb(152, 152, 152);
+}
+
+.options a:hover {
+    color: rgb(129, 128, 128);
+}
+
+.green-point {
+    color: green;
+    font-size: 0.6em;
+}
+
+.button {
+    display: flex;
+    border: 0.6px silver solid;
+    padding: 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    background-color: #48e630;
+    padding: 16px 48px 16px 48px;
+    border: none;
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+
+.chat {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+    border: 0.6px silver solid;
+    cursor: pointer;
+}
+
+.imgen-chat {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.nombres p {
+    padding: 3px;
+}
+
+.menu-derecho {
+    width: 80%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-derecho h1 {
+    color: #394145;
+    font-size: 2em;
+    padding-top: 1em;
+}
+
+.menu-derecho p {
+    color: #626c70;
+    font-size: 1em;
+}
+
+.logo {
+    width: 260px;
+    height:260px;
+}
